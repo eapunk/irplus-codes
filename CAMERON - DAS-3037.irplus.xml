@@ -1,0 +1,38 @@
+<irplus>
+ <device manufacturer="CAMERON" model="DAS-3037" columns="12" format="WINLIRC_NEC1" one-pulse="585" one-space="1662" zero-pulse="585" zero-space="538" header-pulse="9024" header-space="4462" bits="16" pre-bits="16">
+  <button label="&#61457;" labelSize="25.0" span="6" backgroundColor="FFC84334">0x00FF 0x40BF</button>
+  <button label="FUNCTION" alt="POWER" labelSize="18.0" span="6">0x00FF 0x58A7</button>
+  <button label="&#1045889;" alt="MUTE" labelSize="18.0" span="4">0x00FF 0xD02F</button>
+  <button label="&#1046365;" alt="VOLUME-" labelSize="18.0" span="4">0x00FF 0x50AF</button>
+  <button label="&#1046364;" alt="VOLUME+" labelSize="18.0" span="4">0x00FF 0x609F</button>
+  <button label="&#1044797;" alt="FOLDER-" labelSize="18.0" span="3">0x00FF 0xB847</button>
+  <button label="&#1044801;" alt="TRACK-" labelSize="18.0" span="3">0x00FF 0xE01F</button>
+  <button label="&#1044802;" alt="TRACK+" labelSize="18.0" span="3">0x00FF 0xC03F</button>
+  <button label="&#1044798;" alt="FOLDER+" labelSize="18.0" span="3">0x00FF 0x38C7</button>
+  <button label="USB" labelSize="18.0" span="3" macro="true" backgroundColor="FF000000">[CAMERON - DAS-3037];TAPE;[CAMERON - DAS-3037];FUNCTION;</button>
+  <button label="CD" labelSize="18.0" span="3" macro="true" backgroundColor="FF000000">[CAMERON - DAS-3037];TAPE;[CAMERON - DAS-3037];FUNCTION;[CAMERON - DAS-3037];FUNCTION;[CAMERON - DAS-3037];FUNCTION;</button>
+  <button label="RANDOM" labelSize="12.0" span="3">0x00FF 0x30CF</button>
+  <button label="&#1045518;" alt="PLAY/PAUSE" labelSize="18.0" span="3">0x00FF 0x20DF</button>
+  <button label="ALBUM" labelSize="12.0" span="4">0x00FF 0x708F</button>
+  <button label="INTRO" labelSize="12.0" span="4">0x00FF 0x906F</button>
+  <button label="REPEAT" labelSize="12.0" span="4">0x00FF 0x10EF</button>
+  <button label="TAPE" labelSize="18.0" span="3" backgroundColor="FF000000">0x00FF 0xB04F</button>
+  <button label="TUNER" labelSize="18.0" span="3" backgroundColor="FF000000">0x00FF 0xD827</button>
+  <button label="STEREO" labelSize="12.0" span="3">0x00FF 0x708F</button>
+  <button label="MEM" labelSize="12.0" span="3">0x00FF 0xA05F</button>
+  <button label="0" labelSize="25.0" span="2" backgroundColor="FF1E7854">0x00FF 0x08F7</button>
+  <button label="1" labelSize="25.0" span="2" backgroundColor="FF1E7854">0x00FF 0x8877</button>
+  <button label="2" labelSize="25.0" span="2" backgroundColor="FF1E7854">0x00FF 0x48B7</button>
+  <button label="3" labelSize="25.0" span="2" backgroundColor="FF1E7854">0x00FF 0xC837</button>
+  <button label="4" labelSize="25.0" span="2" backgroundColor="FF1E7854">0x00FF 0x28D7</button>
+  <button label="5" labelSize="25.0" span="2" backgroundColor="FF1E7854">0x00FF 0xA857</button>
+  <button label="6" labelSize="25.0" span="2" backgroundColor="FF1E7854">0x00FF 0x6897</button>
+  <button label="7" labelSize="25.0" span="2" backgroundColor="FF1E7854">0x00FF 0xE817</button>
+  <button label="8" labelSize="25.0" span="2" backgroundColor="FF1E7854">0x00FF 0x18E7</button>
+  <button label="9" labelSize="25.0" span="2" backgroundColor="FF1E7854">0x00FF 0x9867</button>
+  <button label="EXIT/STOP" labelSize="18.0" span="4" backgroundColor="FFCECE00">0x00FF 0x807F</button>
+  <button label="&#1046122;" alt="EQUALIZER" labelSize="18.0" span="4">0x00FF 0x00FF</button>
+  <button label="BBS" labelSize="12.0" span="4">0x00FF 0xF807</button>
+  <button label="SLEEP" labelSize="12.0" span="4">0x00FF 0xF00F</button>
+ </device>
+</irplus>
